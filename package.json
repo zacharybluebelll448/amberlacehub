@@ -1,0 +1,12 @@
+{
+  "name": "feature-flag-9e2c89",
+  "version": "1.0.0",
+  "description": "A feature-flag utility",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["feature-flag", "utility"],
+  "license": "MIT"
+}

